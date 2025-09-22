@@ -2,9 +2,7 @@ public class Ten
  {
    public static void main (String[]args)
    {
-
      int num = 12345, sum = 0;
-
      //loop to find sum of digits
      while(num!=0){
          sum += num % 10;
