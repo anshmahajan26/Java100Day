@@ -1,10 +1,7 @@
 import java.io.*;
 import java.util.*;
-
 class Main{
-
-    public static void main(String args[]){
-        
+    public static void main(String args[]){       
         int month=12, year = 2012;
         switch (month) {
             // Cases for 31 Days
@@ -16,27 +13,23 @@ class Main{
             case 10:
             case 12:
             System.out.println("Number of days is 31");
-            break;
-  
+            break;  
             // Cases for 30 Days
             case 4:
             case 6:
             case 9:
             case 11:
             System.out.println("Number of days is 30");
-            break;
-  
+            break; 
             // Case for 28/29 Days
             case 2:
                 if((year%400==0) || ((year%100!=0)&&(year%4==0)))
                     System.out.println("Number of days is 29");
                 else System.out.println("Number of days is 28");
-            break;
-  
+            break;  
             default:
             System.out.println("Invalid Month.");
             break;
         }
-    
     }
 }
