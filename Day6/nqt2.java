@@ -2,17 +2,17 @@ import java.util.*;
 public class nqt2{
     public static int Binary(String str){
         if(str == null) return -1;
-        int result = str.charAt(0)- "0";
+        int result = str.charAt(0)- '0';
 
         for(int i =1; i<str.length(); ){
             char ch = str.charAt(i);
             i++;
-            if(ch == "A"){
-                result = result & charAt(i)-"0";
-            }else if(ch =="B"){
-                result = result | charAt(i)-"0";
+            if(ch == 'A'){
+                result = result & str.charAt(i) - '0';
+            }else if(ch == 'B'){
+                result = result | str.charAt(i) - '0';
             }else{
-                result = result ^ charAt(i)-"0";
+                result = result ^ str.charAt(i) - '0';
             }
             i++;
         }
