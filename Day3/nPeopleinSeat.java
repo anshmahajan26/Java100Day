@@ -18,7 +18,7 @@ public class Main
             int number;  
             number = n - r;  
             fact2 = 1;  
-            for (int i = number; i > 1; i=i-1)    
+            for (int i = number; i > 1; i=i-1)     
             {  
                 fact2 = fact2 * i;  //calculating factorial ((n-r)!)
             }  
