@@ -22,6 +22,7 @@ public class one{
     public static void main (String[]args){
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
+        System.out.println("this is the ouput");
         System.out.print(Binary(str));
     }
 }
