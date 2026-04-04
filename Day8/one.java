@@ -23,6 +23,6 @@ public class one{
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println("this is the ouput");
-        System.out.print(Binary(str));
+        
     }
 }
