@@ -1,10 +1,10 @@
 import java.util.*;
 class one{
-    public static void Patil(){
-        System.out.println("patil is bevda");
+    public static void Print(){
+        System.out.println("Hellow world");
         
     }
     public static void main (String []args){
-        Patil();
+        Print();
     }
 }
