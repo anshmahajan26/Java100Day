@@ -1,3 +1,4 @@
+import java.util.*;
 class one{
     public static void Patil(){
         System.out.println("patil is bevda");
