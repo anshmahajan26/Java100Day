@@ -26,6 +26,6 @@ class nqt3{
 
         int result[]= strength(arr);
         System.out.println("min"+ result[0]);
-         System.out.println("max"+ result[1]);        
+         System.out.println("max" result[1]);        
     }
 }
