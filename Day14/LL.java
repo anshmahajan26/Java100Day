@@ -14,6 +14,7 @@ class LL{
        LL ll = new LL();
        LL.head = new node(1);
        LL.head.next = new node(2);
+       System.out.print(LL.head.data + "->");
        
     }
 }
