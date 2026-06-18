@@ -24,7 +24,7 @@ public class LL2 {
         // 5. Remove elements (Deletion)
         cars.remove("BMW");      // Removes by value
         cars.remove(2);          // Removes by index position
-        cars.removeFirst();      // Removes the head node
+            
 
         // 6. Iterate through the list
         System.out.print("Remaining Cars: ");
